@@ -1,33 +1,16 @@
 {
-  "name": "MGT2",
-  "title": "Mongose Traveller 2",
-  "description": "Many details here.",
-  "version": "0.0.1",
+  "name": "mgt2",
+  "title": "Mongoose Traveller v2",
+  "description": "The Mongoose Traveller v2 system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "9.0.0",
+  "compatibleCoreVersion": "9.0.0",
   "templateVersion": 2,
   "author": "Guin Kellam",
-  "scripts": [
-    "scripts/system-scripts.js",
-  ],
-  "esmodules": [
-    "scripts/system-modules.mjs"
-  ],
-  "styles": [
-    "styles/system-styles.css"
-  ],
-  "packs": [
-    {
-      "name": "species",
-      "label": "species",
-      "path": "packs/species.db",
-      "entity": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "My Items",
-      "path": "packs/items.db",
-      "entity": "Item"
-    }
-  ],
+  "esmodules": ["module/mgt2.js"],
+  "styles": ["css/mgt2.css"],
+  "scripts": [],
+  "packs": [],
   "languages": [
     {
       "lang": "en",
@@ -35,13 +18,12 @@
       "path": "lang/en.json"
     }
   ],
-  "socket": false,
-  "initiative": "1d20",
-  "gridDistance": 10,
+  "gridDistance": 5,
   "gridUnits": "ft",
-  "primaryTokenAttribute": "resources.health",
-  "secondaryTokenAttribute": "resources.power",
-  "url": "https://your/hosted/system/repo/",
-  "manifest": "https://your/hosted/system/repo/system.json",
-  "download": "https://your/packaged/download/archive.zip"
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
 }
