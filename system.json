@@ -15,13 +15,6 @@
   "styles": [
     "styles/system-styles.css"
   ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
   "socket": false,
   "initiative": "1d20",
   "gridDistance": 10,
