@@ -1,0 +1,458 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "power": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }
+      },
+      "attributes": {
+        "attributes": {
+          "str": {
+            "value": 12,
+            "dmg": 0
+          },
+          "dex": {
+            "value": 7,
+            "dmg": 0
+          },
+          "end": {
+            "value": 7,
+            "dmg": 0        
+          },
+          "int": {
+            "value": 7,
+            "dmg": 0        
+          },
+          "edu": {
+            "value": 7,
+            "dmg": 0        
+          },
+          "soc": {
+            "value": 7,
+            "dmg": 0        
+          }
+        }
+      },
+      "skills": {
+        "skills": {
+          "Administration": {
+            "value":0
+          },
+          "Advocate": {
+            "value":0
+          },
+          "Animals": {
+            "Specialities": {	
+              "Handling": {
+                "value":0
+              },
+              "Training": {
+                "value":0
+              },
+              "Veterinary": {
+                "value":0
+              }
+            }
+            },
+          "Art": {
+            "Specialities": {	
+              "Performer": {
+                "value":0
+              },
+              "Holography": 
+              {
+                "value":0
+              },
+              "Instrument": {
+                "value":0
+              },
+              "Visual Media": {
+                "value":0
+              },
+              "Write": {
+                "value":0
+              }
+            }
+          },
+          "Astrogation": {
+            "value":0
+          },
+          "Athletics": {
+            "Specialities": {
+              "Archery": {
+                "value":0
+              },
+              "Dexterity": {
+                "value":0
+              },
+              "Endurance": {
+                "value":0
+              },
+              "Strength": {
+                "value":0
+              }
+            }
+          },
+          "Battle Dress": {
+            "value":0
+          },
+          "Broker": {
+            "value":0
+          },
+          "Carouse": {
+            "value":0
+          },
+          "Deception": {
+            "value":0
+          },
+          "Diplomat": {
+            "value":0
+          },
+          "Drive": {
+            "Specialities": {
+              "Hover": {
+                "value": 0
+              },
+              "Mole": {
+                "value": 0
+              },
+              "Tracked": {
+                "value": 0
+              },
+              "Walker": {
+                "value": 0
+              },
+              "Wheeled": {
+                "value": 0
+              }
+            }
+          },
+          "Electronics": {
+            "Specialities":{
+              "Comms": {
+                "value": 0
+              },
+              "Computers": {
+                "value": 0
+              },
+              "Remote Ops": {
+                "value": 0
+              },
+              "Sensors": {
+                "value": 0
+              }
+            }
+          },
+          "Engineer": {
+            "Specialities": {
+              "Jump Drive": {
+                "value": 0
+              },
+              "Life Support": {
+                "value": 0
+              },
+              "Manoeuvre Drive": {
+                "value": 0
+              },
+              "Power Plant": {
+                "value": 0
+              }
+            }
+          },
+          "Explosives": {
+            "value": 0
+          },
+          "Flyer": {
+            "Specialities": {
+              "Airship": {
+                "value": 0
+              },
+              "Grav": {
+                "value": 0
+              },
+              "Ornithopter": {
+                "value": 0
+              },
+              "Rotor": {
+                "value": 0
+              },
+              "Wing": {
+                "value": 0
+              }
+            }
+          },
+          "Gambler": {
+            "value": 0
+          },
+          "Gunner": {
+            "Specialities": {
+              "Capital weapons": {
+                "value": 0
+              },
+              "Ortillery": {
+                "value": 0
+              },
+              "Screens": {
+                "value": 0
+              },
+              "Turrets": {
+                "value": 0
+              }
+            }
+          },
+          "Gun Combat": {
+            "Specialities": {
+              "Archaic": {
+                "value": 0
+              },
+              "Energy Longarm": {
+                "value": 0
+              },
+              "Energy Shortarm": {
+                "value": 0
+              },
+              "Slug Shortarm": {
+                "value": 0
+              },
+              "Slug Longarm": {
+                "value": 0
+              }
+            }
+          },
+          "Heavy Weapons": {
+            "Specialities": {
+              "Artillery" : {
+                "value": 0
+              },
+              "Man-Portable": {
+                "value": 0
+              },
+              "Vehicle": {
+                "value": 0
+              }
+            }
+          },
+          "Investigate": {
+            "value": 0
+          },
+          "Jack of All-Trades": {
+            "value": 0
+          },
+          "Language": {
+            "Specialities": {
+              "Anglic":{
+                "value": 0
+              }
+            }
+          },    
+          "Leadership": {
+            "value": 0
+          },
+          "Mechanic": {
+            "value": 0
+          },
+        
+          "Medic": {
+            "value": 0
+          },
+          "Melee": {
+            "Specialities": {
+              "Blade": {
+                "value": 0
+                },
+              "Bludgeon": {
+                "value": 0
+                },
+              "Natural": {
+                "value": 0
+              },
+              "Unarmed": {
+                "value": 0
+              }
+            }
+          },
+          "Navigation": {
+            "value": 0
+          },
+          "Persuade": {
+            "value": 0
+          },
+          "Pilot": {
+            "Specialities": {
+              "Capital Ships": {
+                "value": 0
+              },
+              "Small Craft": {
+                "value": 0
+              },
+              "Spacecraft": {
+                "value": 0
+              }
+            }
+          },
+          "Profession": {
+              "value": 0
+          },
+          "Belter": {
+            "value": 0
+          },
+          "Biologicals": {
+            "value": 0
+          },
+          "Civil Engineering": {
+            "value": 0
+          },
+          "Construction": {
+            "value": 0
+          },
+          "Hydroponics": {
+            "value": 0
+          },
+          "Military Engineering": {
+            "value": 0
+          },
+          "Polymers": {
+            "value": 0
+          },
+          "Reconnaissance": {
+            "value": 0
+          },
+          "Science": {
+            "Specialities": {
+              "Archaeology": {
+                "value": 0
+              },
+              "Astronomy": {
+                "value": 0
+              },
+              "Biology": {
+                "value": 0
+              },
+              "Chemistry": {
+                "value": 0
+              },
+              "Cosmology": {
+                "value": 0
+              },
+              "Cybernetics": {
+                "value": 0
+              },
+              "Economics": {
+                "value": 0
+              },
+              "Genetics": {
+                "value": 0
+              },
+              "History": {
+                "value": 0
+              },
+              "Linguistics": {
+                "value": 0
+              },
+              "Philosophy": {
+                "value": 0
+              },
+              "Physics": {
+                "value": 0
+              },
+              "Planetology": {
+                "value": 0
+              },
+              "Psionicology": {
+                "value": 0
+              },
+              "Robotics": {
+                "value": 0
+              },
+              "Sophontology": {
+                "value": 0
+              },
+              "Xenology": {
+                "value": 0
+              }
+            }
+          },
+          "Seafarer": {
+            "Specialities": {
+              "Ocean Ships": {
+                "value": 0
+              },
+              "Personal": {
+                "value": 0
+              },
+              "Sail": {
+                "value": 0
+              },
+              "Submarine": {
+                "value": 0
+              }
+            }
+          },
+          "Stealth": {
+            "value": 0
+          },
+          "Steward": {
+            "value": 0
+          },
+          "Streetwise": {
+            "value": 0
+          },
+          "Survival": {
+            "value": 0
+          },
+          "Tactics": {
+            "value": 0
+          },
+          "Military": {
+            "value": 0
+          },
+          "Naval": {
+            "value": 0
+          },
+          "Vacc Suit": {
+            "value": 0
+          }
+        }
+      }
+    },
+    "character": {
+      "templates": ["base", "skills", "attributes"],
+      "biography": ""
+    }
+  },
+  "Item": {
+    "types": ["skill"],
+    "templates": {
+      "base": {
+        "name": ""
+      },
+      "skill": {
+        "templates": ["base"],
+        "quantity": 1,
+        "weight": 0,
+        "value": 0,
+        "characteristic": "",
+        "type": "",
+        "description": "",
+        "shortdescr": "",
+        "subtype": "",
+        "reference": "",
+        "key": "",
+        "difficulty": "",
+        "rolltype": ""
+      }
+    },
+    "skill": {
+      "templates": ["base", "skill"]
+    }
+  }
+}

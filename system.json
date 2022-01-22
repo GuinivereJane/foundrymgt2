@@ -1,0 +1,72 @@
+{
+  "name": "MGT2",
+  "title": "Mongose Traveller 2",
+  "description": "Many details here.",
+  "version": "0.0.1",
+  "templateVersion": 2,
+  "author": "Guin Kellam",
+  "scripts": [
+    "scripts/system-scripts.js",
+  ],
+  "esmodules": [
+    "scripts/system-modules.mjs"
+  ],
+  "styles": [
+    "styles/system-styles.css",
+  ],
+  "packs": [
+    {
+      "name": "species",
+      "label": "species",
+      "path": "packs/species.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "My Items",
+      "path": "packs/items.db",
+      "entity": "Item"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "dice-so-nice",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/2.0.3/module/module.json",
+    },
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "url": "link/to/media/file",
+      "caption": "<Insert description of screenshot>"
+    },
+    {
+      "type": "cover",
+      "url": "https://somereposite.com/author/repo/raw/images/cover.png",
+      "caption": "<Insert module / system name>"
+    },
+    {
+      "type": "video",
+      "url": "https://somereposite.com/author/repo/raw/videos/demo.webm",
+      "loop": true,
+      "thumbnail": "https://somereposite.com/author/repo/raw/images/thumb.png",
+      "caption": "<Insert description of a cool feature from the video>"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 10,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.power",
+  "url": "https://your/hosted/system/repo/",
+  "manifest": "https://your/hosted/system/repo/system.json",
+  "download": "https://your/packaged/download/archive.zip"
+}
