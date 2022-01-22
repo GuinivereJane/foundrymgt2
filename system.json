@@ -3,17 +3,38 @@
   "title": "Mongose Traveller 2",
   "description": "Many details here.",
   "version": "0.0.1",
-  "compatibleCoreVersion": "9.242",
   "templateVersion": 2,
+  "compatibleCoreVersion": "9.242",
   "author": "Guin Kellam",
   "scripts": [
-    "scripts/system-scripts.js"
+    "scripts/system-scripts.js",
   ],
   "esmodules": [
     "scripts/system-modules.mjs"
   ],
   "styles": [
     "styles/system-styles.css"
+  ],
+  "packs": [
+    {
+      "name": "species",
+      "label": "species",
+      "path": "packs/species.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "My Items",
+      "path": "packs/items.db",
+      "entity": "Item"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "pasks/lang/en.json"
+    }
   ],
   "socket": false,
   "initiative": "1d20",
@@ -23,5 +44,5 @@
   "secondaryTokenAttribute": "resources.power",
   "url": "https://github.com/GuinivereJane/foundrymgt2",
   "manifest": "https://raw.githubusercontent.com/GuinivereJane/foundrymgt2/main/system.json",
-  "download": "https://github.com/GuinivereJane/foundrymgt2/archive/refs/tags/0.0.1.zip"
-}
+  "download": "https://github.com/GuinivereJane/foundrymgt2/releases/tag/0.0.1"
+  
