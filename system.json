@@ -3,7 +3,7 @@
   "title": "Mongose Traveller 2",
   "description": "Many details here.",
   "version": "0.0.1",
-  "compatibleCoreVersion": 9,
+  "compatibleCoreVersion": "9.242",
   "templateVersion": 2,
   "author": "Guin Kellam",
   "scripts": [
