@@ -433,7 +433,7 @@
     "types": ["skill"],
     "templates": {
       "base": {
-        "name": ""
+        "name": "template"
       },
       "skill": {
         "templates": ["base"],
