@@ -6,7 +6,7 @@
   "templateVersion": 2,
   "author": "Guin Kellam",
   "scripts": [
-    "scripts/system-scripts.js",
+    "scripts/system-scripts.js"
   ],
   "esmodules": [
     "scripts/system-modules.mjs"
