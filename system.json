@@ -14,20 +14,6 @@
   "styles": [
     "styles/system-styles.css"
   ],
-  "packs": [
-    {
-      "name": "species",
-      "label": "species",
-      "path": "packs/species.db",
-      "entity": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "My Items",
-      "path": "packs/items.db",
-      "entity": "Item"
-    }
-  ],
   "languages": [
     {
       "lang": "en",
