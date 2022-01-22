@@ -1,15 +1,33 @@
 {
-  "name": "boilerplate",
-  "title": "Boilerplate",
-  "description": "The Boilerplate system for FoundryVTT!",
-  "version": "1.1.1",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "9",
-  "author": "Asacolips",
-  "esmodules": ["module/boilerplate.mjs"],
-  "styles": ["css/boilerplate.css"],
-  "scripts": [],
-  "packs": [],
+  "name": "MGT2",
+  "title": "Mongose Traveller 2",
+  "description": "Many details here.",
+  "version": "0.0.1",
+  "templateVersion": 2,
+  "author": "Guin Kellam",
+  "scripts": [
+    "scripts/system-scripts.js",
+  ],
+  "esmodules": [
+    "scripts/system-modules.mjs"
+  ],
+  "styles": [
+    "styles/system-styles.css"
+  ],
+  "packs": [
+    {
+      "name": "species",
+      "label": "species",
+      "path": "packs/species.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "My Items",
+      "path": "packs/items.db",
+      "entity": "Item"
+    }
+  ],
   "languages": [
     {
       "lang": "en",
@@ -17,13 +35,13 @@
       "path": "lang/en.json"
     }
   ],
-  "gridDistance": 5,
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 10,
   "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "license": "LICENSE.txt"
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.power",
+  "url": "https://github.com/GuinivereJane/foundrymgt2",
+  "manifest": "https://raw.githubusercontent.com/GuinivereJane/foundrymgt2/main/system.json",
+  "download": "https://github.com/GuinivereJane/foundrymgt2/releases/tag/0.0.1"
 }
-
