@@ -35,31 +35,6 @@
       "path": "lang/en.json"
     }
   ],
-  "dependencies": [
-    {
-      "name": "dice-so-nice",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/2.0.3/module/module.json",
-    },
-  ],
-  "media": [
-    {
-      "type": "screenshot",
-      "url": "link/to/media/file",
-      "caption": "<Insert description of screenshot>"
-    },
-    {
-      "type": "cover",
-      "url": "https://somereposite.com/author/repo/raw/images/cover.png",
-      "caption": "<Insert module / system name>"
-    },
-    {
-      "type": "video",
-      "url": "https://somereposite.com/author/repo/raw/videos/demo.webm",
-      "loop": true,
-      "thumbnail": "https://somereposite.com/author/repo/raw/images/thumb.png",
-      "caption": "<Insert description of a cool feature from the video>"
-    }
-  ],
   "socket": false,
   "initiative": "1d20",
   "gridDistance": 10,
